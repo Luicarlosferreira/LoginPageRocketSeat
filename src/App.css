@@ -1,0 +1,614 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+}
+
+
+#root{
+  width: 100%;
+ 
+}
+
+body{
+  background-color: rgb(18, 18, 20);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;  
+ 
+
+ 
+ 
+  
+ 
+ 
+
+}
+
+
+
+.Container{
+  margin: auto;
+  width: 100%;
+  max-width: 1000px;
+  background-color: rgb(18, 18, 20);
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Container_form{
+  background-color: rgb(18, 18, 20);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.intraContainer{
+  display: flex;
+  background-color: rgb(18, 18, 20);
+  width: 100%;
+  margin-top: -20px;
+  justify-content: center;  
+  margin-left:  -40px;
+  gap: 10px;
+  margin: auto;
+    
+}
+
+
+.startLogo{
+
+  background-color: rgb(18, 18, 20);
+  padding: 80px;
+  display: flex;  
+  flex-flow: column ;  
+  justify-content: space-around;
+  margin-left: -40px;
+  
+  
+
+
+}
+.startLogo h2{
+  margin-right: 25px;
+  font-size: 53px;
+  line-height: 64px;
+  color: rgb(225, 225, 230);
+ 
+}
+
+
+.form_Container form{
+    width: 100%;
+    max-width: 480px;
+    background: rgb(32, 32, 36);
+    border-radius: 5px;
+    padding: 65px;
+    color: rgb(168, 168, 179);
+    display: flex;
+    flex-flow: column;
+    gap: 13px;
+}
+
+form{
+  margin: auto;
+  display: flex;
+  
+}
+
+
+.sectionFormInputs{
+  display: flex;
+  flex-flow: column;  
+  gap: 10px;
+  
+  
+ 
+}
+
+
+.sectionFormInputs div{
+  background-color: rgba(18, 18, 20, 0.801);
+  padding: 3px; 
+  display: flex;
+  gap: 10px;
+  align-items: center;  
+  background: rgb(18, 18, 20);
+  border: 2px solid rgb(18, 18, 20);
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+  z-index: 2;
+  
+
+}
+.containerInputOne:hover {    
+  border: 2px solid rgb(18, 18, 20);
+}
+
+
+
+.containerInputOne input{ 
+  margin-right: 26px;  
+  
+}
+
+.sectionFormInputs div input{
+  width: 352px;
+  background: rgb(18, 18, 20);
+  outline: none;
+  height: 38px;
+  border: none;
+  color: white;
+  font:  1rem Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+
+
+
+
+.sectionFormInputs div svg{
+  color:rgb(43, 43, 49);
+  width: 18px;
+  margin-left: 10px;
+}
+
+.sectionFormInputs div svg:hover{
+  color: rgb(130, 87, 229);
+}
+
+
+
+
+.sectionFormInputs div a svg{
+  margin-right: 10px;
+  color:rgb(130, 87, 229);
+  transition: all .2s ease-in-out;
+}
+.sectionFormInputs div a svg:hover{
+  color:rgba(114, 66, 224, 0.664);
+}
+
+
+.forgotPassword{
+ color:rgba(118, 83, 199, 0.856);
+ font-weight: 600;
+ font-size: 14px;
+ font-family: Roboto, serif;
+ margin-bottom: 10px;
+ transition: all 0.2s ease-in-out;
+}
+
+.forgotPassword:hover{
+  color: rgb(130, 87, 230);
+
+}
+
+
+.buttonForm{
+  width: 100%;
+  padding: 15px;
+  background: rgb(130, 87, 229);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 1em;  
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.buttonForm:hover{
+  background: rgb(154, 123, 231);
+}
+
+
+.buttonForm:disabled{
+    background: rgb(65, 53, 107);
+    color: rgba(255, 255, 255, 0.35);
+}
+
+
+.accountRegister{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.664);
+  
+}
+.accountRegister a{
+  font-weight: 600;
+  color:rgba(118, 83, 199, 0.856);
+  transition: all 0.1s ease-in-out;
+}
+.accountRegister a:hover{
+  color:rgba(142, 102, 236, 0.856);
+}
+
+.hrContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.hrContainer hr{
+  width: 44%;
+  border-color: rgba(105, 105, 122, 0.103);
+}
+
+.gitContainer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+  margin-top: 13px;
+  
+}
+.gitContainer div{
+  display: flex;
+  color: rgb(225, 225, 230);
+  width: 40%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 0;
+  font-size: 14px;
+}
+.gitContainer a{
+  background-color: red;
+  width: 90%;
+  padding: 15px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: rgb(41, 41, 46);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.gitContainer a:hover{
+  background: rgba(130, 87, 229, 0.904);
+}
+
+
+
+.gitContainer a:hover > svg{
+  color: rgb(255, 255, 255);
+}
+
+.gitContainer svg{
+  color:rgba(118, 83, 199, 0.856);
+  width: 20px;
+  height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+    .startLogo h2{
+    margin-right: 25px;
+    font-size: 35px;
+    line-height: 64px;
+    color: rgb(225, 225, 230);
+   
+  }
+
+
+
+  .form_Container form{
+    width: 90%;
+    max-width: 480px;
+    background: rgb(32, 32, 36);
+    border-radius: 5px;
+    padding: 65px;
+    color: rgb(168, 168, 179);
+    display: flex;
+    flex-flow: column;
+    gap: 13px;
+}
+.sectionFormInputs{
+  display: flex;
+  flex-flow: column;  
+  gap: 10px;
+  
+  
+}
+}
+
+@media screen and (max-width: 900px) {
+
+
+
+
+
+   .Container{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgb(18, 18, 20);
+    padding: 5px; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .Container_form{
+    background-color: rgb(18, 18, 20);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+    
+  } 
+  
+  .intraContainer{
+    display: flex;
+    background-color: rgb(18, 18, 20);
+    width: 100%;
+    margin-top: -20px;
+    justify-content: center; 
+    align-items: center;
+    margin-left:  1px;
+    gap: 1px;
+    margin: auto;
+    flex-flow: column;
+      
+  }
+  
+  .startLogo h2{
+    margin-right: 30px;
+    font-size: 55px;
+    line-height: 64px;
+    color: rgb(225, 225, 230);
+   
+  }
+
+  .startLogo{
+
+    background-color: rgb(18, 18, 20);
+    padding: 20px;
+    display: flex;  
+    flex-flow: column ;  
+    justify-content: space-around;
+    margin-left: -45px;
+    gap: 30px;
+          
+  }
+
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+
+
+
+  .Container{
+   margin: auto;
+   width: 100%;
+   max-width: 1000px;
+   background-color: rgb(18, 18, 20);
+   padding: 5px; 
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ 
+ }
+ .Container_form{
+   background-color: rgb(18, 18, 20);
+   width: 90%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   
+   
+ } 
+ 
+ .intraContainer{
+   display: flex;
+   background-color: rgb(18, 18, 20);
+   width: 90%;
+   margin-top: -10px;
+   justify-content: center; 
+   align-items: center;
+   margin-left:  1px;
+   gap: 1px;
+   margin: auto;
+   flex-flow: column;
+     
+ }
+ 
+ .startLogo h2{
+   margin-right: 75px;
+   font-size: 40px;
+   line-height: 64px;
+   color: rgb(225, 225, 230);
+  
+ }
+
+ .startLogo{
+
+   background-color: rgb(18, 18, 20);
+   padding: 20px;
+   display: flex;  
+   flex-flow: column ;  
+   justify-content: space-around;
+   margin-left: -45px;
+   gap: 30px;
+         
+ }
+
+
+ 
+ .form_Container form{
+  width: 80%;
+  max-width: 480px;
+  background: rgb(32, 32, 36);
+  border-radius: 5px;
+  padding: 40px;
+  color: rgb(168, 168, 179);
+  display: flex;
+  flex-flow: column;
+  gap: 13px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 510px) {
+
+
+  .startLogo h2{
+   margin-right: 100px;
+    font-size: 30px;
+    line-height: 40px;
+    color: rgb(225, 225, 230);
+   
+  }
+ 
+  .startLogo{
+ 
+    background-color: rgb(18, 18, 20);
+    padding: 20px;
+    display: flex;  
+    flex-flow: column ;  
+    justify-content: space-around;
+    margin-left: -45px;
+    gap: 30px;
+          
+  }
+ 
+ 
+  
+  .form_Container form{
+   width: 70%;
+   max-width: 480px;
+   background: rgb(32, 32, 36);
+   border-radius: 5px;
+   padding: 30px;
+   color: rgb(168, 168, 179);
+   display: flex;
+   flex-flow: column;
+   gap: 13px;
+ }
+
+
+
+}
+
+@media screen and (max-width: 490px){
+
+  
+
+.Container{
+  margin: auto;
+  width: 100%;
+  max-width:100%;
+  background-color: rgb(18, 18, 20);  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Container_form{
+  background-color: rgb(18, 18, 20);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.intraContainer{
+  display: flex;
+  background-color: rgb(18, 18, 20);
+  width: 100%;
+  margin-top: -20px;
+  justify-content: center;  
+  margin-left:  -40px;
+  gap: 50px;
+  margin: auto;
+    
+}
+
+
+  
+  .startLogo h2{
+    margin-right: 130px;
+     font-size: 25px;
+     line-height: 40px;
+     color: rgb(225, 225, 230);
+    
+   }
+  
+   .startLogo{
+  
+     background-color: rgb(18, 18, 20);
+     padding: 15px;
+     display: flex;  
+     flex-flow: column ;  
+     justify-content: space-around;
+     margin-left: -45px;
+     gap: 20px;
+           
+   }
+  
+  .form_Container form{
+    width: 70%;
+    max-width: 480px;
+    background: rgb(32, 32, 36);
+    border-radius: 5px;
+    padding: 20px;
+    color: rgb(168, 168, 179);
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    
+  }
+
+
+
+}
